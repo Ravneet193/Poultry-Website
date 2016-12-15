@@ -1,0 +1,17 @@
+*{
+padding: 0px;
+margin:0px;
+width:100%;
+max-width:100;
+}
+#Heading{
+background-color: #B80000;
+padding-left: 500px;
+padding-top: 10px;
+padding-bottom: 10px;
+width:100%;
+height: 40px;
+color: white;
+font-family: Arial Rounded MT;
+font-size: 35px;
+}

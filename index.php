@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>TIME Research and Breeding farms</title>
+	<link rel="stylesheet" href="demo.css">
+	<link rel="stylesheet" href="bjqs.css">
+	<link href="css/main.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<div id="Wrapper">
+		<header id="Heading">
+		<a href="index.php"><img height ="60" id="Logo" src="Images/Time 4.jpg"></img></a>
+		<h2>TIME Research and Breeding farms</h2>
+		</header>
+		<nav id="Menu">
+			<span class="Option"><a href="index.php" id= "AboutUs">Home</a></span>
+			<span class="Option"><a href="OurProducts.html" id= "OurProducts">Our Products</a></span>
+			<span class="Option"><a href="Gallery.html" id= "Gallery">Gallery</a></span>
+			<span class="Option"><a href="ContactUs.html" id= "ContactUs">Contact Us</a></span>
+		</nav>
+		<div id="Content">
+		<div id="Image">
+		<img height="160" src="Images/Image.jpg"></img>
+		</div>
+		<div id="AboutUsContent">
+		<h3>How it began:</h3>
+		<br>
+		Mr. Ravi Sabharwal ventured into the field of Poultry in 1988 starting up with Sabharwal Poultry Farms which then had the capacity of 5000 Broilers. Over the years, he gained extensive experience in this field and in 1996, he added 3000 Broiler Breeders to the company's production line. <br><br>
+		In 2010, He was joined by Mr. inderjeet singh and they both started a joint venture together - TIME Research and Breeding Farms. The company currently has broiler breeder farms of 1.25 lakh capacity which operate in Environment controlled conditions.
+		</div>
+		<div id="FarmInfo">
+		<h3>Our Farms:</h3><br>
+		We currently have Broiler Breeding farms of capacity 1.25 lakhs with annual production capacity of 2crore, 50 lakhs. We have seperate hatcheries and seperate dark & close houses for growing and breeding both of which are Environment controlled. <br>
+		We deal exclusively in Cobb 400 / Cobb 400Y	breed. A specialized feed formulation is processed through our feed mills and stringent quality standards are mantained throughout the farms.
+		</div>
+		<div id="MissionStatement">
+		<h3>Our Mission Statement:</h3>
+		<br>
+		We strife to provide our customers with best quality product with the aid of latest technology in the field. Customer Satisfaction stands on the highest mantle here at TIME Research and Breeding Farms.
+		</div>
+		<!--<img height="400" width="500" src="Images/baby-chick-and-an-egg.jpg" id="BabyChickandEgg"></img>-->
+		
+		
+	</div>
+		<footer id="Footer">
+		Time Research and breeding Farms &#169; 2011
+		</footer>
+		<script type="text/javascript" src="js/jquery.js"></script>
+	</div>
+</body>
+</html>

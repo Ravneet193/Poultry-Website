@@ -1,0 +1,213 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+header, div, footer,nav{
+	display: block;
+}
+
+#Wrapper{
+	padding-top: 5px;
+	width: 1000px;
+	margin: 0 auto;
+	border-radius: 10px;
+	-webkit-box-shadow: rgb(110,110,110) 8px 8px 8px;
+	-moz-box-shadow: rgb(110,110,110) 8px 8px 8px;
+	box-shadow: rgb(110,110,110) 8px 8px 8px;
+	border: solid 1px #DDDDDD;
+	
+}
+#Heading{
+	/*height: 70px;*/
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 5px;
+	color: #4C4C1F;
+	font-size: 30px;
+	/* fallback */
+	  background-color: #FFFF66;
+	  /* Safari 4-5, Chrome 1-9 */
+	  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF66), to(white));
+
+	  /* Safari 5.1, Chrome 10+ */
+	  background: -webkit-linear-gradient(45deg, #FFFF66, white);
+
+	  /* Firefox 3.6+ */
+	  background: -moz-linear-gradient(45deg, #FFFF66, white);
+
+	  /* IE 10 */
+	  background: -ms-linear-gradient(45deg, #FFFF66, white);
+
+	  /* Opera 11.10+ */
+	  background: -o-linear-gradient(45deg, #FFFF66, white);
+}
+#Heading a img{
+	border:0;
+	outline:none;
+}
+#Logo{
+	margin-left: 40px;
+	float:left;
+}
+#Menu{
+	padding: 5px 0px;
+	font-size: 17px;
+	font-family: Verdana;
+	background-color: #402B00;	
+}
+
+#Options{
+	list-style:none;
+}
+.Option{
+	
+}
+.Option a{
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #FFFFE6;
+}
+.Option a:hover{
+	background-color: #FFFFE6;
+	color: #402B00;
+}
+
+.Product{
+	padding: 8px;
+	margin: 20px;
+	background-color: #3333FF;
+	font-size: 18px;
+	font-family: Verdana;
+	/* fallback */
+  background-color: #5F5F5F;
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#5F5F5F), to(#DFDFDF));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #5F5F5F, #DFDFDF);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #5F5F5F, #DFDFDF);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #5F5F5F, #DFDFDF);
+
+  /* Opera couldn't do radial gradients, then at some point they started supporting the -webkit- syntax, how it kinda does but it's kinda broken (doesn't do sizing) */
+}
+
+.Product a{
+	padding: 8px;
+	text-decoration: none;
+	color: white;
+}
+
+.Product a:hover{
+	padding: 8px;
+	text-decoration: none;
+	color: black;
+	background-color: #DFDFDF;
+  /* Safari 4-5, Chrome 1-9 */
+  /* Can't specify a percentage size? Laaaaaame. */
+  background: -webkit-gradient(radial, center center, 0, center center, 460, from(#DFDFDF), to(#5F5F5F));
+
+  /* Safari 5.1+, Chrome 10+ */
+  background: -webkit-radial-gradient(circle, #DFDFDF, #5F5F5F);
+
+  /* Firefox 3.6+ */
+  background: -moz-radial-gradient(circle, #DFDFDF, #5F5F5F);
+
+  /* IE 10 */
+  background: -ms-radial-gradient(circle, #DFDFDF, #5F5F5F);
+
+  /* Opera couldn't do radial gradients, then at some point they started supporting the -webkit- syntax, how it kinda does but it's kinda broken (doesn't do sizing) */
+	
+}
+
+#ProductInfo{
+	border-radius: 10px;
+	-moz-box-shadow:    inset 0 0 15px #000000;
+	-webkit-box-shadow: inset 0 0 15px #000000;
+	box-shadow: inset 0 0 15px #000000;
+	margin: 20px;
+	padding: 20px;
+	width: 80%;
+	font-size: 18px;
+	font-family: Calibri;
+	color: #666666;
+}
+
+#ProductInfo ul{
+	margin: 20px;
+}
+
+#ContactInfo{
+	margin: 20px;
+	padding: 20px;
+	width: 80%;
+	font-size: 18px;
+	font-family: Calibri;
+	color: #666666;
+}
+
+.ContactCard{
+	padding: 40px;
+	margin: 40px;
+	max-width: 55%;
+	border-radius : 10px;
+	border: solid 1px #AAAAAA;
+	background-color: #F0F0F0;
+}
+#Content{
+}
+
+#Footer{
+	text-align: center;
+	font-size: 10px;
+	font-family: Calibri;
+	color: #AAAAAA;
+	border-top: 1px solid #CCCCCC;
+	padding: 10px 0px;
+	clear: both;
+}
+
+#AboutUsContent{
+	max-width: 82%;
+	font-family : Calibri;
+	font-size: 15px;
+	padding: 30px;
+	border-radius : 10px;
+	margin: 30px 30px 10px 30px;
+	border: solid 1px #AAAAAA;
+	float: left;
+	background-color: 	#F0F0F0;
+}
+
+#MissionStatement{
+	max-width: 35%;
+	font-family : Calibri;
+	font-size: 15px;
+	padding: 30px;
+	border-radius : 10px;
+	margin: 30px;
+	border: solid 1px #AAAAAA;
+	float: left;
+	background-color: 	#F0F0F0;
+}
+
+#FarmInfo{
+	max-width: 35%;
+	font-family : Calibri;
+	font-size: 15px;
+	padding: 30px;
+	border-radius : 10px;
+	margin: 30px;
+	border: solid 1px #AAAAAA;
+	float: left;
+	background-color: 	#F0F0F0;
+}
+
+#Image{
+	width: 100%;
+}
